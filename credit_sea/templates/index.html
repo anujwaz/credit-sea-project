@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/css/applicant globals.css' %}" />
+    <link rel="stylesheet" href="{% static '/css/applicant style.css' %}" />
+  </head>
+  <body>
+    <div class="USER-DASHBOARD-APP">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="div"></div>
+          <div class="HEADER"></div>
+          <img class="tabler-currency" src="img/tabler-currency-naira.svg" />
+          <img class="img" src="img/tabler-currency-naira-1.svg" />
+          <div class="text-wrapper">CREDIT APP</div>
+          <div class="text-wrapper-2">Home</div>
+          <div class="text-wrapper-3">Payments</div>
+          <img class="account-circle" src="img/account-circle.svg" />
+          <div class="text-wrapper-4">User</div>
+          <img class="vector" src="img/vector.svg" />
+          <img class="vector-2" src="img/vector-1.svg" />
+          <img class="vector-3" src="img/vector-2.svg" />
+          <div class="text-wrapper-5">4</div>
+          <img class="vector-4" src="img/vector-3.svg" />
+          <div class="text-wrapper-6">Budget</div>
+          <div class="text-wrapper-7">Card</div>
+          <img class="vector-5" src="img/vector-4.svg" />
+          <img class="vector-6" src="img/vector-5.svg" />
+          <div class="text-wrapper-8">Borrow Cash</div>
+          <div class="text-wrapper-9">Transact</div>
+          <div class="text-wrapper-10">Deposit Cash</div>
+          <img class="line" src="img/line-1.svg" />
+          <img class="line-2" src="img/line-2.svg" />
+          <div class="rectangle-2"></div>
+          <div class="text-wrapper-11">DEFICIT</div>
+          <div class="text-wrapper-12">0.0</div>
+          <img class="vector-7" src="img/vector-6.svg" />
+          <img class="vector-8" src="img/vector-7.svg" />
+          <div class="rectangle-3"></div>
+          <div class="rectangle-4"></div>
+          <div class="text-wrapper-13">APPLY FOR A LOAN</div>
+          <img class="mouse-pointer" src="img/mouse-pointer.svg" />
+
+          <!-- Start of Form -->
+          <form action="#" method="POST">
+            {% csrf_token %}
+            <div class="OB-forms-full-name">
+              <p class="text-wrapper-14">Full name as it appears on bank account</p>
+              <div class="frame">
+                <p class="name">
+                  <input
+                    type="text"
+                    name="full_name"
+                    id=""
+                    placeholder="Full name as it appears on bank account"
+                    required
+                  />
+                </p>
+              </div>
+            </div>
+
+            <div class="OB-forms-how-much-do">
+              <p class="text-wrapper-14">How much do you need?</p>
+              <div class="frame">
+                <input type="number" name="need" placeholder="Enter amount" required />
+              </div>
+            </div>
+
+            <div class="OB-forms-loan-tenure">
+              <div class="text-wrapper-14">Loan tenure (in months)</div>
+              <div class="frame">
+                <input type="number" name="loan_tenure" placeholder="Loan tenure (in months)" required />
+              </div>
+            </div>
+
+            <div class="OB-forms-employment">
+              <div class="text-wrapper-14">Employment status</div>
+              <div class="frame">
+                <select name="employment_status" required>
+                  <option value="">Select Employment Status</option>
+                  <option value="employed">Employed</option>
+                  <option value="self-employed">Self-employed</option>
+                  <option value="unemployed">Unemployed</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="OB-forms-employment-2">
+              <div class="text-wrapper-14">Employment address</div>
+              <div class="frame">
+                <input type="text" name="employment_address" placeholder="Employment address" />
+              </div>
+            </div>
+
+            <div class="OB-forms-reason-for">
+              <div class="text-wrapper-15">Reason for loan</div>
+              <div class="frame-2">
+                <textarea name="reason_for_loan" placeholder="Reason for loan" rows="3"></textarea>
+                <div class="min-height"></div>
+              </div>
+            </div>
+
+            <div class="OB-forms-i-have-read">
+              <p class="p">
+                I have read the important information and accept that by completing the application I will be bound by
+                the terms
+              </p>
+              <input type="checkbox" name="terms" required />
+            </div>
+
+            
+
+            <div class="OB-forms-submit">
+              <button type="submit" class="name-3" value="submit">Submit</button>
+            </div>
+          </form>
+          <!-- End of Form -->
+
+          <div class="chart">
+            <!-- Chart code remains the same -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

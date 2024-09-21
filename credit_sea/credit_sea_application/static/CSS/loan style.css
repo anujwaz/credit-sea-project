@@ -1,0 +1,887 @@
+.USER-DASHBOARD-LOANS {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.USER-DASHBOARD-LOANS .div {
+  background-color: #efefef;
+  width: 1440px;
+  height: 1800px;
+  position: relative;
+}
+
+.USER-DASHBOARD-LOANS .overlap {
+  position: absolute;
+  width: 759px;
+  height: 55px;
+  top: 301px;
+  left: 340px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.USER-DASHBOARD-LOANS .overlap-group {
+  position: absolute;
+  width: 251px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  background-color: #6b99081a;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper {
+  position: absolute;
+  top: 18px;
+  left: 71px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .line {
+  left: 247px;
+  position: absolute;
+  width: 1px;
+  height: 55px;
+  top: 0;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-2 {
+  position: absolute;
+  top: 17px;
+  left: 358px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-3 {
+  position: absolute;
+  top: 17px;
+  left: 605px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .img {
+  left: 529px;
+  position: absolute;
+  width: 1px;
+  height: 55px;
+  top: 0;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-LOANS .div-wrapper {
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  top: 202px;
+  left: 950px;
+  background-color: #09502e30;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-4 {
+  position: absolute;
+  top: 12px;
+  left: 35px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .overlap-2 {
+  position: absolute;
+  width: 759px;
+  height: 55px;
+  top: 392px;
+  left: 340px;
+  background-color: #fffffff5;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.USER-DASHBOARD-LOANS .vector {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 14px;
+  left: 20px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-5 {
+  position: absolute;
+  top: 15px;
+  left: 78px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #696969;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .navbar {
+  position: absolute;
+  width: 1440px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 4px #00000040;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(233.57, 233.75, 232.78) 53.41%);
+}
+
+.USER-DASHBOARD-LOANS .tabler-currency {
+  position: absolute;
+  width: 49px;
+  height: 43px;
+  top: 14px;
+  left: 581px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-6 {
+  position: absolute;
+  top: 22px;
+  left: 21px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #09502e;
+  font-size: 28.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-7 {
+  top: 22px;
+  left: 483px;
+  color: #064921;
+  font-size: 26px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-8 {
+  top: 22px;
+  left: 634px;
+  color: #09502eb2;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .account-circle {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 14px;
+  left: 1283px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-9 {
+  top: 19px;
+  left: 1334px;
+  color: #09502e;
+  font-size: 18px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .vector-2 {
+  position: absolute;
+  width: 14px;
+  height: 9px;
+  top: 25px;
+  left: 1394px;
+}
+
+.USER-DASHBOARD-LOANS .vector-3 {
+  position: absolute;
+  width: 30px;
+  height: 29px;
+  top: 14px;
+  left: 1237px;
+}
+
+.USER-DASHBOARD-LOANS .overlap-3 {
+  position: absolute;
+  width: 27px;
+  height: 38px;
+  top: 5px;
+  left: 1184px;
+}
+
+.USER-DASHBOARD-LOANS .vector-4 {
+  position: absolute;
+  width: 27px;
+  height: 29px;
+  top: 10px;
+  left: 0;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-10 {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #a51b12;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .vector-5 {
+  position: absolute;
+  width: 37px;
+  height: 29px;
+  top: 22px;
+  left: 434px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-11 {
+  top: 22px;
+  left: 810px;
+  color: #09502eb2;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-12 {
+  top: 22px;
+  left: 964px;
+  color: #09502eb2;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .vector-6 {
+  position: absolute;
+  width: 37px;
+  height: 29px;
+  top: 20px;
+  left: 913px;
+}
+
+.USER-DASHBOARD-LOANS .vector-7 {
+  position: absolute;
+  width: 23px;
+  height: 29px;
+  top: 22px;
+  left: 766px;
+}
+
+.USER-DASHBOARD-LOANS .tabler-currency-2 {
+  position: absolute;
+  width: 22px;
+  height: 29px;
+  top: 213px;
+  left: 429px;
+}
+
+.USER-DASHBOARD-LOANS .overlap-4 {
+  position: absolute;
+  width: 80px;
+  height: 69px;
+  top: 191px;
+  left: 340px;
+  background-color: #6b9908;
+}
+
+.USER-DASHBOARD-LOANS .vector-8 {
+  position: absolute;
+  width: 52px;
+  height: 38px;
+  top: 23px;
+  left: 6px;
+}
+
+.USER-DASHBOARD-LOANS .vector-9 {
+  position: absolute;
+  width: 30px;
+  height: 13px;
+  top: 18px;
+  left: 39px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-13 {
+  position: absolute;
+  top: 187px;
+  left: 435px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #6b9908;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-14 {
+  position: absolute;
+  top: 220px;
+  left: 453px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #6b9908;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .all-tickets {
+  position: absolute;
+  width: 1137px;
+  height: 915px;
+  top: 483px;
+  left: 175px;
+  overflow: hidden;
+}
+
+.USER-DASHBOARD-LOANS .overlap-5 {
+  position: relative;
+  width: 1160px;
+  height: 934px;
+  top: -19px;
+  left: -11px;
+}
+
+.USER-DASHBOARD-LOANS .cards-default {
+  position: absolute;
+  width: 1160px;
+  height: 934px;
+  top: 0;
+  left: 0;
+}
+
+.USER-DASHBOARD-LOANS .overlap-group-2 {
+  position: relative;
+  width: 1134px;
+  height: 920px;
+  top: 14px;
+  left: 12px;
+  background-color: var(--grayscale-white);
+  border-radius: 8.36px;
+  border: 1.04px solid;
+  border-color: var(--grayscale-divider);
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-15 {
+  position: absolute;
+  width: 204px;
+  top: 33px;
+  left: 17px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 23.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-LOANS .filter {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  top: 56px;
+  left: 1058px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-16 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  font-family: var(--semibold-14-0-2-px-font-family);
+  font-weight: var(--semibold-14-0-2-px-font-weight);
+  color: var(--grayscale-gray-dark);
+  font-size: var(--semibold-14-0-2-px-font-size);
+  letter-spacing: var(--semibold-14-0-2-px-letter-spacing);
+  line-height: var(--semibold-14-0-2-px-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .img-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 1px;
+  left: 0;
+}
+
+.USER-DASHBOARD-LOANS .sort {
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  top: 56px;
+  left: 973px;
+}
+
+.USER-DASHBOARD-LOANS .table-bottom {
+  position: absolute;
+  width: 371px;
+  height: 24px;
+  top: 835px;
+  left: 745px;
+}
+
+.USER-DASHBOARD-LOANS .rows-per-page {
+  position: absolute;
+  width: 143px;
+  height: 18px;
+  top: 3px;
+  left: 0;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-17 {
+  position: absolute;
+  width: 106px;
+  top: 0;
+  left: 0;
+  font-family: var(--reg-14-0-3-px-font-family);
+  font-weight: var(--reg-14-0-3-px-font-weight);
+  color: var(--grayscale-gray);
+  font-size: var(--reg-14-0-3-px-font-size);
+  letter-spacing: var(--reg-14-0-3-px-letter-spacing);
+  line-height: var(--reg-14-0-3-px-line-height);
+  white-space: nowrap;
+  font-style: var(--reg-14-0-3-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-18 {
+  position: absolute;
+  width: 10px;
+  top: 0;
+  left: 114px;
+  font-family: var(--reg-14-0-3-px-font-family);
+  font-weight: var(--reg-14-0-3-px-font-weight);
+  color: var(--grayscale-gray-dark);
+  font-size: var(--reg-14-0-3-px-font-size);
+  text-align: right;
+  letter-spacing: var(--reg-14-0-3-px-letter-spacing);
+  line-height: var(--reg-14-0-3-px-line-height);
+  white-space: nowrap;
+  font-style: var(--reg-14-0-3-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .icon-dropdown {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 3px;
+  left: 127px;
+}
+
+.USER-DASHBOARD-LOANS .pagination {
+  position: absolute;
+  width: 186px;
+  height: 24px;
+  top: 0;
+  left: 187px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-19 {
+  position: absolute;
+  width: 100px;
+  top: 3px;
+  left: 0;
+  font-family: var(--reg-14-0-3-px-font-family);
+  font-weight: var(--reg-14-0-3-px-font-weight);
+  color: var(--grayscale-gray);
+  font-size: var(--reg-14-0-3-px-font-size);
+  letter-spacing: var(--reg-14-0-3-px-letter-spacing);
+  line-height: var(--reg-14-0-3-px-line-height);
+  white-space: nowrap;
+  font-style: var(--reg-14-0-3-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .icon-arrow-left {
+  left: 124px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+}
+
+.USER-DASHBOARD-LOANS .icon-arrow-right {
+  left: 160px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+}
+
+.USER-DASHBOARD-LOANS .table-top {
+  position: absolute;
+  width: 1135px;
+  height: 30px;
+  top: 123px;
+  left: 12px;
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-20 {
+  position: absolute;
+  width: 455px;
+  top: -1px;
+  left: 31px;
+  font-family: var(--bold-14-0-2-px-font-family);
+  font-weight: var(--bold-14-0-2-px-font-weight);
+  color: var(--grayscale-gray);
+  font-size: var(--bold-14-0-2-px-font-size);
+  letter-spacing: var(--bold-14-0-2-px-letter-spacing);
+  line-height: var(--bold-14-0-2-px-line-height);
+  font-style: var(--bold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-21 {
+  position: absolute;
+  width: 208px;
+  top: -1px;
+  left: 526px;
+  font-family: var(--bold-14-0-2-px-font-family);
+  font-weight: var(--bold-14-0-2-px-font-weight);
+  color: var(--grayscale-gray);
+  font-size: var(--bold-14-0-2-px-font-size);
+  letter-spacing: var(--bold-14-0-2-px-letter-spacing);
+  line-height: var(--bold-14-0-2-px-line-height);
+  font-style: var(--bold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-22 {
+  position: absolute;
+  width: 104px;
+  top: -1px;
+  left: 960px;
+  font-family: var(--bold-14-0-2-px-font-family);
+  font-weight: var(--bold-14-0-2-px-font-weight);
+  color: var(--grayscale-gray);
+  font-size: var(--bold-14-0-2-px-font-size);
+  letter-spacing: var(--bold-14-0-2-px-letter-spacing);
+  line-height: var(--bold-14-0-2-px-line-height);
+  font-style: var(--bold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .text-wrapper-23 {
+  width: 140px;
+  top: -1px;
+  left: 774px;
+  font-weight: var(--bold-14-0-2-px-font-weight);
+  color: var(--grayscale-gray);
+  font-size: var(--bold-14-0-2-px-font-size);
+  letter-spacing: var(--bold-14-0-2-px-letter-spacing);
+  line-height: var(--bold-14-0-2-px-line-height);
+  position: absolute;
+  font-family: var(--bold-14-0-2-px-font-family);
+  font-style: var(--bold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .divider-line {
+  height: 2px;
+  top: 29px;
+  position: absolute;
+  width: 1135px;
+  left: 0;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-LOANS .table-ticket {
+  position: absolute;
+  width: 1135px;
+  height: 92px;
+  top: 153px;
+  left: 12px;
+}
+
+.USER-DASHBOARD-LOANS .overlap-6 {
+  position: absolute;
+  width: 1135px;
+  height: 222px;
+  top: 24px;
+  left: 0;
+}
+
+.USER-DASHBOARD-LOANS .content {
+  position: absolute;
+  width: 1085px;
+  height: 222px;
+  top: 0;
+  left: 31px;
+}
+
+.USER-DASHBOARD-LOANS .icon-more-vertical {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  left: 1049px;
+}
+
+.USER-DASHBOARD-LOANS .chip-priority-high {
+  width: 66px;
+  height: 29px;
+  top: 7px;
+  left: 923px;
+  background-color: #fec400;
+  border-radius: 122.22px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.USER-DASHBOARD-LOANS .title {
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  top: 6px;
+  left: 5px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: var(--grayscale-white);
+  font-size: 9.3px;
+  text-align: center;
+  letter-spacing: 0.53px;
+  line-height: normal;
+}
+
+.USER-DASHBOARD-LOANS .title-wrapper {
+  position: absolute;
+  width: 66px;
+  height: 29px;
+  top: 192px;
+  left: 923px;
+}
+
+.USER-DASHBOARD-LOANS .time-label {
+  position: absolute;
+  width: 140px;
+  top: 26px;
+  left: 743px;
+  font-family: var(--reg-12-0-1-px-font-family);
+  font-weight: var(--reg-12-0-1-px-font-weight);
+  color: var(--grayscale-gray-light);
+  font-size: var(--reg-12-0-1-px-font-size);
+  letter-spacing: var(--reg-12-0-1-px-letter-spacing);
+  line-height: var(--reg-12-0-1-px-line-height);
+  white-space: nowrap;
+  font-style: var(--reg-12-0-1-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .date-label {
+  width: 140px;
+  top: 2px;
+  left: 743px;
+  font-weight: var(--semibold-14-0-2-px-font-weight);
+  color: var(--grayscale-black);
+  font-size: var(--semibold-14-0-2-px-font-size);
+  letter-spacing: var(--semibold-14-0-2-px-letter-spacing);
+  line-height: var(--semibold-14-0-2-px-line-height);
+  position: absolute;
+  font-family: var(--semibold-14-0-2-px-font-family);
+  font-style: var(--semibold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .date-customer {
+  width: 208px;
+  top: 26px;
+  left: 495px;
+  font-weight: var(--reg-12-0-1-px-font-weight);
+  color: var(--grayscale-gray-light);
+  font-size: var(--reg-12-0-1-px-font-size);
+  letter-spacing: var(--reg-12-0-1-px-letter-spacing);
+  line-height: var(--reg-12-0-1-px-line-height);
+  white-space: nowrap;
+  position: absolute;
+  font-family: var(--reg-12-0-1-px-font-family);
+  font-style: var(--reg-12-0-1-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .customer-name {
+  position: absolute;
+  width: 208px;
+  top: 2px;
+  left: 495px;
+  font-family: var(--semibold-14-0-2-px-font-family);
+  font-weight: var(--semibold-14-0-2-px-font-weight);
+  color: var(--grayscale-black);
+  font-size: var(--semibold-14-0-2-px-font-size);
+  letter-spacing: var(--semibold-14-0-2-px-letter-spacing);
+  line-height: var(--semibold-14-0-2-px-line-height);
+  font-style: var(--semibold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .ticket-information {
+  top: 26px;
+  font-weight: var(--reg-12-0-1-px-font-weight);
+  color: var(--grayscale-gray-light);
+  font-size: var(--reg-12-0-1-px-font-size);
+  letter-spacing: var(--reg-12-0-1-px-letter-spacing);
+  line-height: var(--reg-12-0-1-px-line-height);
+  white-space: nowrap;
+  position: absolute;
+  width: 387px;
+  left: 68px;
+  font-family: var(--reg-12-0-1-px-font-family);
+  font-style: var(--reg-12-0-1-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .ticket-name {
+  top: 2px;
+  font-weight: var(--semibold-14-0-2-px-font-weight);
+  color: var(--grayscale-black);
+  font-size: var(--semibold-14-0-2-px-font-size);
+  letter-spacing: var(--semibold-14-0-2-px-letter-spacing);
+  line-height: var(--semibold-14-0-2-px-line-height);
+  position: absolute;
+  width: 387px;
+  left: 68px;
+  font-family: var(--semibold-14-0-2-px-font-family);
+  font-style: var(--semibold-14-0-2-px-font-style);
+}
+
+.USER-DASHBOARD-LOANS .avatar-man {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0;
+  left: 0;
+}
+
+.USER-DASHBOARD-LOANS .divider-line-2 {
+  position: absolute;
+  width: 1135px;
+  height: 1px;
+  top: 68px;
+  left: 0;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-LOANS .chip-priority-high-2 {
+  width: 78px;
+  height: 35px;
+  top: 183px;
+  left: 954px;
+  background-color: #cc2828;
+  border-radius: 144.44px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.USER-DASHBOARD-LOANS .title-2 {
+  position: absolute;
+  width: 66px;
+  height: 17px;
+  top: 7px;
+  left: 6px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: var(--grayscale-white);
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.62px;
+  line-height: normal;
+}
+
+.USER-DASHBOARD-LOANS .divider-line-3 {
+  height: 1px;
+  top: 0;
+  position: absolute;
+  width: 1135px;
+  left: 0;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-LOANS .table-ticket-2 {
+  top: 244px;
+  position: absolute;
+  width: 1135px;
+  height: 92px;
+  left: 12px;
+}
+
+.USER-DASHBOARD-LOANS .chip-priority-high-3 {
+  width: 78px;
+  height: 35px;
+  top: 4px;
+  left: 954px;
+  background-color: #29cc97;
+  border-radius: 144.44px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.USER-DASHBOARD-LOANS .table-ticket-3 {
+  top: 337px;
+  position: absolute;
+  width: 1135px;
+  height: 92px;
+  left: 12px;
+}
+
+.USER-DASHBOARD-LOANS .table-ticket-4 {
+  top: 429px;
+  position: absolute;
+  width: 1135px;
+  height: 92px;
+  left: 12px;
+}
+
+.USER-DASHBOARD-LOANS .chip-priority-high-4 {
+  width: 78px;
+  height: 35px;
+  top: 4px;
+  left: 954px;
+  background-color: #1829c6;
+  border-radius: 144.44px;
+  position: absolute;
+  overflow: hidden;
+}

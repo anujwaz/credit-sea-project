@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/css/loan globals.css' %}" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="{% static '/css/loan style.css' %}" />
+  </head>
+  <body>
+    <div class="USER-DASHBOARD-LOANS">
+      <div class="div">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="text-wrapper">Borrow Cash</div>
+            <img class="line" src="img/line-1.svg" />
+          </div>
+          <div class="text-wrapper-2">Transact</div>
+          <div class="text-wrapper-3">Deposit Cash</div>
+          <img class="img" src="img/line-2.svg" />
+        </div>
+        <div class="div-wrapper"><div class="text-wrapper-4">Get A Loan</div></div>
+        <div class="overlap-2">
+          <img class="vector" src="img/vector-8.svg" />
+          <div class="text-wrapper-5">Search for loans</div>
+        </div>
+        <div class="navbar">
+          <img class="tabler-currency" src="img/tabler-currency-naira.svg" />
+          <div class="text-wrapper-6">CREDIT APP</div>
+          <div class="text-wrapper-7">Home</div>
+          <div class="text-wrapper-8">Payments</div>
+          <img class="account-circle" src="img/account-circle.svg" />
+          <div class="text-wrapper-9">User</div>
+          <img class="vector-2" src="img/vector.svg" />
+          <img class="vector-3" src="img/vector-1.svg" />
+          <div class="overlap-3">
+            <img class="vector-4" src="img/vector-2.svg" />
+            <div class="text-wrapper-10">4</div>
+          </div>
+          <img class="vector-5" src="img/vector-3.svg" />
+          <div class="text-wrapper-11">Budget</div>
+          <div class="text-wrapper-12">Card</div>
+          <img class="vector-6" src="img/vector-4.svg" />
+          <img class="vector-7" src="img/vector-5.svg" />
+        </div>
+        <img class="tabler-currency-2" src="img/tabler-currency-naira-1.svg" />
+        <div class="overlap-4">
+          <img class="vector-8" src="img/vector-6.svg" /> <img class="vector-9" src="img/vector-7.svg" />
+        </div>
+        <div class="text-wrapper-13">DEFICIT</div>
+        <div class="text-wrapper-14">0.0</div>
+        <div class="all-tickets">
+          <div class="overlap-5">
+            <div class="cards-default">
+              <div class="overlap-group-2"><div class="text-wrapper-15">Applied Loans</div></div>
+            </div>
+            <div class="filter">
+              <div class="text-wrapper-16">Filter</div>
+              <img class="img-2" src="img/icon-filter.svg" />
+            </div>
+            <div class="sort">
+              <div class="text-wrapper-16">Sort</div>
+              <img class="img-2" src="img/icon-sort.svg" />
+            </div>
+            <div class="table-bottom">
+              <div class="rows-per-page">
+                <div class="text-wrapper-17">Rows per page:</div>
+                <div class="text-wrapper-18">7</div>
+                <img class="icon-dropdown" src="img/icon-dropdown.svg" />
+              </div>
+              <div class="pagination">
+                <div class="text-wrapper-19">1-4 of 4</div>
+                <img class="icon-arrow-left" src="img/icon-arrow-left.svg" />
+                <img class="icon-arrow-right" src="img/icon-arrow-right.svg" />
+              </div>
+            </div>
+            <div class="table-top">
+              <div class="text-wrapper-20">Loan Officer</div>
+              <div class="text-wrapper-21">Amount</div>
+              <div class="text-wrapper-22">Status</div>
+              <div class="text-wrapper-23">Date Applied</div>
+              <img class="divider-line" src="img/divider-line-horizontal.svg" />
+            </div>
+            {% for x in data %} <div class="table-ticket">
+              <div class="overlap-6">
+                <div class="content">
+                  <img class="icon-more-vertical" src="img/icon-more-vertical-3.svg" />
+                  <div class="chip-priority-high"><div class="title">PENDING</div></div>
+                  <div class="title-wrapper"><div class="title">PENDING</div></div>
+                  <div class="time-label">6:30 PM</div>
+                  <div class="date-label">June 09, 2021</div>
+                  <div class="date-customer">Not Debt Yet</div>
+                  <div class="customer-name">{{x.need}}</div>
+                  <div class="ticket-information">Updated 1 day ago</div>
+                  <div class="ticket-name">John Okoh</div>
+                  <img class="avatar-man" src="img/avatar-man-5.svg" />
+                </div>
+                <img class="divider-line-2" src="img/divider-line-horizontal-8.svg" />
+                <div class="chip-priority-high-2"><div class="title-2">REJECTED</div></div>
+              </div>
+              <img class="divider-line-3" src="img/divider-line-horizontal-8.svg" />
+            </div>
+            <div class="table-ticket-2">
+              <div class="overlap-6">
+                <div class="content">
+                  <img class="icon-more-vertical" src="img/icon-more-vertical-3.svg" />
+                  <div class="title-wrapper"><div class="title">PENDING</div></div>
+                  <div class="time-label">6:30 PM</div>
+                  <div class="date-label">June 07, 2021</div>
+                  <div class="date-customer">Not Debt Yet</div>
+                  <div class="customer-name">100,000.00</div>
+                  <div class="ticket-information">Updated 1 day ago</div>
+                  <div class="ticket-name">John Okoh</div>
+                  <img class="avatar-man" src="img/avatar-man-5-1.svg" />
+                </div>
+                <img class="divider-line-2" src="img/divider-line-horizontal-8.svg" />
+                <div class="chip-priority-high-3"><div class="title-2">VERIFIED</div></div>
+              </div>
+              <img class="divider-line-3" src="img/divider-line-horizontal-8.svg" />
+            </div>
+            <div class="table-ticket-3">
+              <div class="overlap-6">
+                <div class="content">
+                  <img class="icon-more-vertical" src="img/icon-more-vertical-3.svg" />
+                  <div class="title-wrapper"><div class="title">PENDING</div></div>
+                  <div class="time-label">6:30 PM</div>
+                  <div class="date-label">June 07, 2021</div>
+                  <div class="date-customer">Not Debt Yet</div>
+                  <div class="customer-name">100,000.00</div>
+                  <div class="ticket-information">Updated 1 day ago</div>
+                  <div class="ticket-name">John Okoh</div>
+                  <img class="avatar-man" src="img/avatar-man-5-2.svg" />
+                </div>
+                <img class="divider-line-2" src="img/divider-line-horizontal-8.svg" />
+              </div>
+              <img class="divider-line-3" src="img/divider-line-horizontal-8.svg" />
+            </div>
+            <div class="table-ticket-4">
+              <div class="overlap-6">
+                <div class="content">
+                  <img class="icon-more-vertical" src="img/icon-more-vertical-3.svg" />
+                  <div class="title-wrapper"><div class="title">PENDING</div></div>
+                  <div class="time-label">6:30 PM</div>
+                  <div class="date-label">May 27, 2021</div>
+                  <div class="date-customer">Loan Fully Reaid</div>
+                  <div class="customer-name">100,000.00</div>
+                  <div class="ticket-information">Updated 1 day ago</div>
+                  <div class="ticket-name">John Okoh</div>
+                  <img class="avatar-man" src="img/avatar-man-5-3.svg" />
+                </div>{% endfor %}
+                <img class="divider-line-2" src="img/divider-line-horizontal-8.svg" />
+                <div class="chip-priority-high-4"><div class="title-2">APPROVED</div></div>
+              </div>
+              <img class="divider-line-3" src="img/divider-line-horizontal-8.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

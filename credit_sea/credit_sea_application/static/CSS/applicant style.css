@@ -1,0 +1,924 @@
+.USER-DASHBOARD-APP {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.USER-DASHBOARD-APP .overlap-wrapper {
+  background-color: #efefef;
+  width: 1440px;
+  height: 1800px;
+}
+
+.USER-DASHBOARD-APP .overlap {
+  position: relative;
+  height: 1800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.USER-DASHBOARD-APP .rectangle {
+  position: absolute;
+  width: 759px;
+  height: 55px;
+  top: 300px;
+  left: 340px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.USER-DASHBOARD-APP .div {
+  position: absolute;
+  width: 251px;
+  height: 55px;
+  top: 300px;
+  left: 340px;
+  background-color: #6b99081a;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.USER-DASHBOARD-APP .HEADER {
+  position: absolute;
+  width: 1440px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 4px #00000040;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(233.57, 233.75, 232.78) 53.41%);
+}
+
+.USER-DASHBOARD-APP .tabler-currency {
+  position: absolute;
+  width: 49px;
+  height: 43px;
+  top: 14px;
+  left: 581px;
+}
+
+.USER-DASHBOARD-APP .img {
+  position: absolute;
+  width: 22px;
+  height: 29px;
+  top: 212px;
+  left: 429px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper {
+  position: absolute;
+  top: 22px;
+  left: 21px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #09502e;
+  font-size: 28.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-2 {
+  position: absolute;
+  top: 22px;
+  left: 483px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #064921;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-3 {
+  position: absolute;
+  top: 22px;
+  left: 634px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #09502eb2;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .account-circle {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 16px;
+  left: 1283px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-4 {
+  position: absolute;
+  top: 19px;
+  left: 1334px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #09502e;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .vector {
+  position: absolute;
+  width: 14px;
+  height: 9px;
+  top: 25px;
+  left: 1394px;
+}
+
+.USER-DASHBOARD-APP .vector-2 {
+  position: absolute;
+  width: 30px;
+  height: 29px;
+  top: 14px;
+  left: 1237px;
+}
+
+.USER-DASHBOARD-APP .vector-3 {
+  position: absolute;
+  width: 27px;
+  height: 29px;
+  top: 14px;
+  left: 1184px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-5 {
+  top: 5px;
+  left: 1200px;
+  font-weight: 700;
+  color: #a51b12;
+  font-size: 18px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .vector-4 {
+  position: absolute;
+  width: 37px;
+  height: 29px;
+  top: 22px;
+  left: 434px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-6 {
+  position: absolute;
+  top: 22px;
+  left: 810px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #09502eb2;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-7 {
+  position: absolute;
+  top: 22px;
+  left: 964px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #09502eb2;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .vector-5 {
+  position: absolute;
+  width: 37px;
+  height: 29px;
+  top: 20px;
+  left: 913px;
+}
+
+.USER-DASHBOARD-APP .vector-6 {
+  position: absolute;
+  width: 23px;
+  height: 29px;
+  top: 22px;
+  left: 766px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-8 {
+  position: absolute;
+  top: 318px;
+  left: 411px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-9 {
+  position: absolute;
+  top: 318px;
+  left: 698px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-10 {
+  position: absolute;
+  top: 318px;
+  left: 945px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .line {
+  left: 587px;
+  position: absolute;
+  width: 1px;
+  height: 55px;
+  top: 300px;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-APP .line-2 {
+  left: 869px;
+  position: absolute;
+  width: 1px;
+  height: 55px;
+  top: 300px;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-APP .rectangle-2 {
+  position: absolute;
+  width: 80px;
+  height: 69px;
+  top: 190px;
+  left: 340px;
+  background-color: #6b9908;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-11 {
+  position: absolute;
+  top: 186px;
+  left: 435px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #6b9908;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-12 {
+  position: absolute;
+  top: 220px;
+  left: 453px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #6b9908;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .vector-7 {
+  position: absolute;
+  width: 52px;
+  height: 38px;
+  top: 214px;
+  left: 346px;
+}
+
+.USER-DASHBOARD-APP .vector-8 {
+  position: absolute;
+  width: 30px;
+  height: 13px;
+  top: 208px;
+  left: 379px;
+}
+
+.USER-DASHBOARD-APP .rectangle-3 {
+  position: absolute;
+  width: 1440px;
+  height: 1730px;
+  top: 70px;
+  left: 0;
+  background-color: #111010;
+  opacity: 0.82;
+}
+
+.USER-DASHBOARD-APP .rectangle-4 {
+  position: absolute;
+  width: 1106px;
+  height: 1405px;
+  top: 250px;
+  left: 169px;
+  background-color: #ffffff;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-13 {
+  position: absolute;
+  width: 248px;
+  top: 348px;
+  left: 384px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 27.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .mouse-pointer {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 1104px;
+  left: 425px;
+}
+
+.USER-DASHBOARD-APP .OB-forms-full-name {
+  position: absolute;
+  width: 300px;
+  height: 84px;
+  top: 420px;
+  left: 381px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-14 {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .frame {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: flex-start;
+  padding: 15px 15px 10px;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #094a034c;
+}
+
+.USER-DASHBOARD-APP .name {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #d2d2d2;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .OB-forms-how-much-do {
+  position: absolute;
+  width: 300px;
+  height: 84px;
+  top: 420px;
+  left: 756px;
+}
+
+.USER-DASHBOARD-APP .OB-forms-loan-tenure {
+  position: absolute;
+  width: 300px;
+  height: 84px;
+  top: 554px;
+  left: 381px;
+}
+
+.USER-DASHBOARD-APP .OB-forms-employment {
+  top: 554px;
+  position: absolute;
+  width: 300px;
+  height: 84px;
+  left: 756px;
+}
+
+.USER-DASHBOARD-APP .OB-forms-employment-2 {
+  top: 688px;
+  position: absolute;
+  width: 300px;
+  height: 84px;
+  left: 756px;
+}
+
+.USER-DASHBOARD-APP .OB-forms-employment-3 {
+  position: absolute;
+  width: 300px;
+  height: 84px;
+  top: 822px;
+  left: 756px;
+}
+
+.USER-DASHBOARD-APP .OB-forms-reason-for {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 165px;
+  align-items: flex-start;
+  position: absolute;
+  top: 688px;
+  left: 381px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-15 {
+  position: relative;
+  width: 300px;
+  height: 28px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 15px 10px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #094a0347;
+}
+
+.USER-DASHBOARD-APP .name-2 {
+  align-self: stretch;
+  margin-top: -1px;
+  color: #d2d2d2;
+  font-size: 14px;
+  line-height: 28px;
+  position: relative;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.USER-DASHBOARD-APP .min-height {
+  position: relative;
+  width: 1px;
+  height: 84px;
+}
+
+.USER-DASHBOARD-APP .OB-forms-i-have-read {
+  position: absolute;
+  width: 300px;
+  height: 28px;
+  top: 960px;
+  left: 382px;
+}
+
+.USER-DASHBOARD-APP .p {
+  position: absolute;
+  width: 26px;
+  top: -1px;
+  left: 33px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: ;
+}
+
+.USER-DASHBOARD-APP .rectangle-5 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 6px;
+  left: 4px;
+  border-radius: 7px;
+  border: 1px solid;
+  border-color: #094a034c;
+}
+
+.USER-DASHBOARD-APP .OB-forms-submit {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 21.43px 21.43px 14.29px;
+  position: absolute;
+  top: 1096px;
+  left: 382px;
+  background-color: #0a5210;
+  border-radius: 10px;
+  border: 1.43px solid;
+}
+
+.USER-DASHBOARD-APP .name-3 {
+  width: fit-content;
+  margin-top: -1.43px;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  white-space: nowrap;
+  position: relative;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.USER-DASHBOARD-APP .OB-forms-i-authorize {
+  position: absolute;
+  width: 300px;
+  height: 28px;
+  top: 956px;
+  left: 757px;
+}
+
+.USER-DASHBOARD-APP .rectangle-6 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 6px;
+  left: 4px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #094a034c;
+}
+
+.USER-DASHBOARD-APP .chart {
+  position: absolute;
+  width: 668px;
+  height: 115px;
+  top: 1340px;
+  left: 201px;
+}
+
+.USER-DASHBOARD-APP .overlap-group {
+  position: relative;
+  width: 640px;
+  height: 108px;
+  top: -2px;
+  left: 27px;
+}
+
+.USER-DASHBOARD-APP .group {
+  position: absolute;
+  width: 605px;
+  height: 12px;
+  top: 97px;
+  left: 34px;
+}
+
+.USER-DASHBOARD-APP .overlap-group-2 {
+  position: relative;
+  height: 12px;
+}
+
+.USER-DASHBOARD-APP .vector-9 {
+  position: absolute;
+  width: 598px;
+  height: 1px;
+  top: 0;
+  left: 4px;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-APP .group-2 {
+  position: absolute;
+  width: 605px;
+  height: 12px;
+  top: 0;
+  left: 0;
+}
+
+.USER-DASHBOARD-APP .group-3 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 0;
+}
+
+.USER-DASHBOARD-APP .vector-10 {
+  position: absolute;
+  width: 1px;
+  height: 3px;
+  top: 0;
+  left: 3px;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-16 {
+  position: absolute;
+  width: 7px;
+  top: 3px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+ 
+}
+
+.USER-DASHBOARD-APP .group-4 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 66px;
+}
+
+.USER-DASHBOARD-APP .group-5 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 133px;
+}
+
+.USER-DASHBOARD-APP .group-6 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 199px;
+}
+
+.USER-DASHBOARD-APP .group-7 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 266px;
+}
+
+.USER-DASHBOARD-APP .group-8 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 332px;
+}
+
+.USER-DASHBOARD-APP .group-9 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 399px;
+}
+
+.USER-DASHBOARD-APP .group-10 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 465px;
+}
+
+.USER-DASHBOARD-APP .group-11 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 532px;
+}
+
+.USER-DASHBOARD-APP .group-12 {
+  position: absolute;
+  width: 9px;
+  height: 12px;
+  top: 0;
+  left: 598px;
+}
+
+.USER-DASHBOARD-APP .group-13 {
+  position: absolute;
+  width: 38px;
+  height: 98px;
+  top: 0;
+  left: 0;
+}
+
+.USER-DASHBOARD-APP .overlap-2 {
+  position: relative;
+  height: 98px;
+}
+
+.USER-DASHBOARD-APP .vector-11 {
+  position: absolute;
+  width: 1px;
+  height: 92px;
+  top: 5px;
+  left: 38px;
+}
+
+.USER-DASHBOARD-APP .group-14 {
+  position: absolute;
+  width: 20px;
+  height: 8px;
+  top: 90px;
+  left: 20px;
+}
+
+.USER-DASHBOARD-APP .vector-12 {
+  position: absolute;
+  width: 6px;
+  height: 1px;
+  top: 6px;
+  left: 12px;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-17 {
+  width: 7px;
+  top: 0;
+  left: 0;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+
+.USER-DASHBOARD-APP .group-15 {
+  position: absolute;
+  width: 34px;
+  height: 8px;
+  top: 67px;
+  left: 6px;
+}
+
+.USER-DASHBOARD-APP .vector-13 {
+  position: absolute;
+  width: 6px;
+  height: 1px;
+  top: 6px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-18 {
+  width: 21px;
+  top: 0;
+  left: 0;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.USER-DASHBOARD-APP .group-16 {
+  position: absolute;
+  width: 34px;
+  height: 8px;
+  top: 44px;
+  left: 6px;
+}
+
+.USER-DASHBOARD-APP .group-17 {
+  position: absolute;
+  width: 34px;
+  height: 8px;
+  top: 21px;
+  left: 6px;
+}
+
+.USER-DASHBOARD-APP .group-18 {
+  position: absolute;
+  width: 40px;
+  height: 8px;
+  top: 0;
+  left: 0;
+}
+
+.USER-DASHBOARD-APP .vector-14 {
+  position: absolute;
+  width: 6px;
+  height: 1px;
+  top: 4px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.USER-DASHBOARD-APP .text-wrapper-19 {
+  width: 27px;
+  top: 0;
+  left: 0;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+
+.USER-DASHBOARD-APP .group-19 {
+  position: absolute;
+  width: 599px;
+  height: 93px;
+  top: 4px;
+  left: 38px;
+}
+
+.USER-DASHBOARD-APP .group-20 {
+  position: absolute;
+  width: 605px;
+  height: 70px;
+  top: 26px;
+  left: 34px;
+}
+
+.USER-DASHBOARD-APP .group-21 {
+  position: absolute;
+  width: 605px;
+  height: 76px;
+  top: 6px;
+  left: 34px;
+}
